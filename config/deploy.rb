@@ -12,7 +12,7 @@ require 'mina/rvm'    # for rvm support. (http://rvm.io)
 
 set :domain, '52.74.157.213'
 set :deploy_to, '/home/deploy'
-# set :repository, 'git://...'
+set :repository, 'https://github.com/PhamTheQuang/study_react.git'
 set :branch, 'master'
 
 # For system-wide RVM install.
